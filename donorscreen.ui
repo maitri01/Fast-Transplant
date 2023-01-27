@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>donorwindow</class>
+ <widget class="QWidget" name="donorwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>CentSchbkCyrill BT</family>
+    <pointsize>24</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="Donorlabel">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>70</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>CentSchbkCyrill BT</family>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../donate_life.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="DonorgroupBox">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>240</y>
+     <width>411</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>CentSchbkCyrill BT</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="title">
+    <string>Donor Details</string>
+   </property>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>CentSchbkCyrill BT</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="DonornameLineEdit">
+       <property name="font">
+        <font>
+         <family>CentSchbkCyrill BT</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="DonornameLabel">
+       <property name="font">
+        <font>
+         <family>CentSchbkCyrill BT</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Aadhar Number: </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>CentSchbkCyrill BT</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <layout class="QFormLayout" name="DonorformLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="DonororganLabel">
+       <property name="font">
+        <font>
+         <family>CentSchbkCyrill BT</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Organ:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="DonororganComboBox">
+       <property name="font">
+        <font>
+         <family>CentSchbkCyrill BT</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="maxVisibleItems">
+        <number>5</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>- select -</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Liver</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kidney</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Heart</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Eye</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vein</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pancreas</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>304</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>CentSchbkCyrill BT</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <layout class="QFormLayout" name="DonorformLayout_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="DOBlabel">
+       <property name="font">
+        <font>
+         <family>CentSchbkCyrill BT</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Date of Birth: </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QDateEdit" name="dateOfBirthDateEdit">
+       <property name="font">
+        <font>
+         <family>CentSchbkCyrill BT</family>
+        </font>
+       </property>
+       <property name="minimumDateTime">
+        <datetime>
+         <hour>2</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>1952</year>
+         <month>1</month>
+         <day>1</day>
+        </datetime>
+       </property>
+       <property name="maximumDate">
+        <date>
+         <year>2021</year>
+         <month>12</month>
+         <day>31</day>
+        </date>
+       </property>
+       <property name="minimumDate">
+        <date>
+         <year>1952</year>
+         <month>1</month>
+         <day>1</day>
+        </date>
+       </property>
+       <property name="calendarPopup">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="ExitDonor">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>650</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>CentSchbkCyrill BT</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BackDonor">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>CentSchbkCyrill BT</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="NextDonor">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>650</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>CentSchbkCyrill BT</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>➜</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="DonorgroupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>240</y>
+     <width>411</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>CentSchbkCyrill BT</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="title">
+    <string>Hospital Details: </string>
+   </property>
+   <widget class="QWidget" name="formLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>CentSchbkCyrill BT</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <layout class="QFormLayout" name="formLayout_5">
+     <item row="0" column="1">
+      <widget class="QComboBox" name="donororganComboBox_2">
+       <property name="font">
+        <font>
+         <family>CentSchbkCyrill BT</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="currentText">
+        <string>- select -</string>
+       </property>
+       <property name="maxVisibleItems">
+        <number>5</number>
+       </property>
+       <property name="sizeAdjustPolicy">
+        <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+       </property>
+       <item>
+        <property name="text">
+         <string>- select -</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Apollo Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Asian heart Institute</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bombay Hospital &amp; Medical Research Centre</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bhaktivedanta Hospital &amp; Research Institute</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Breach Candy Hospital Trust</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Criticare Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>D Y Patil Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DR L H Hiranandani Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fortis Hospital Mulund</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Global Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>HN Reliance foundation Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>J. J. Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jaslok Hospital and Research Centre</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jupiter Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>KEM (King Edward Memorial Hospital)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kokilaben D. Ambani Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lilavati Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>LTMG (Sion Hospital)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MGM Hospital (Vashi)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Masina Heart institute</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nair Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nanavati Super Speciality Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>P. D. Hinduja National Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Parakh Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>S L Raheja Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Saifee Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tata Memorial Hospital</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Umrao Wockhardt</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Wockhardt Hospital - Mumbai Central</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
